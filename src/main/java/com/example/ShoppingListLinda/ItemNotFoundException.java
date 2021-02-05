@@ -6,6 +6,6 @@ package com.example.ShoppingListLinda;
 class ItemNotFoundException extends RuntimeException {
 	
 	  ItemNotFoundException(Long id) {
-	    super("Could not find item " + id);
+	    super("Could not find item " + id); //super is used to set the new detail message for this exception
 	  }
 	}
